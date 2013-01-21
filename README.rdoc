@@ -1,3 +1,6 @@
 Basic Todo App
 
 Using Ruby on Rails 3.2, Backbone.js and CoffeeScript
+
+Heroku application
+http://lit-earth-8307.herokuapp.com/
