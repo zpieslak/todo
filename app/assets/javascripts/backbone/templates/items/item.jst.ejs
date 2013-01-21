@@ -1,0 +1,9 @@
+<form id="edit-item-<%= id %>" name="item_<%= id %>" class="item_update">
+  <div class="view">
+    <input type="checkbox" class="toggle" <%= active ? '' : 'checked="checked"' %>>
+    <label><%= title %></label>
+    <a href="#/<%= id %>/destroy" class="destroy"></a>
+  </div>
+  <input value="<%= title %>" class="edit">
+  <input type="submit" value="Update Item" class="hide" />
+</form>

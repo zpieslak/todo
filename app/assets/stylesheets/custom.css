@@ -1,0 +1,19 @@
+.hide {
+  display: none;
+}
+
+#todo-list li .destroy {
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none !important;
+}
+
+#todo-list li:hover {
+  background: transparent url('arrow.png') no-repeat 450px 50%;
+}
+
+#todo-list li.placeholder {
+  display: block;
+  background: #908179;
+  height: 4px;
+}

@@ -1,0 +1,7 @@
+<div id="items"></div>
+<script type="text/javascript">
+  $(function() {
+    window.router = new Todo.Routers.ItemsRouter({items: <%= @items.to_json.html_safe -%>});
+    Backbone.history.start();
+  });
+</script>
